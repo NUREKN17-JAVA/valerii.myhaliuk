@@ -25,7 +25,6 @@ abstract class HsqldbUserDao implements UserDao {
     @Override
     public User create(User user) throws DatabaseException {
         Connection connection = connectionFactory.createConnection();
-        
         try {
             PreparedStatement statement = connection
                     .prepareStatement(INSERT_QUERU);

@@ -1,6 +1,6 @@
-package com.myhaliuk.usermanagement.db;
+package com.markopavlenko.usermanagement.db;
 
-import com.myhaliuk.usermanagement.User;
+import com.markopavlenko.usermanagement.User;
 
 import org.dbunit.DatabaseTestCase;
 

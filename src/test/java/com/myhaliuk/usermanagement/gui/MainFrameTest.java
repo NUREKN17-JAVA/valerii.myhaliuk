@@ -1,9 +1,9 @@
-package com.myhaliuk.usermanagement.gui;
+package com.markopavlenko.usermanagement.gui;
 
-import com.myhaliuk.usermanagement.User;
-import com.myhaliuk.usermanagement.db.DaoFactory;
-import com.myhaliuk.usermanagement.db.MockDaoFactory; 
-import com.myhaliuk.usermanagement.util.Messages;
+import com.markopavlenko.usermanagement.User;
+import com.markopavlenko.usermanagement.db.DaoFactory;
+import com.markopavlenko.usermanagement.db.MockDaoFactory; 
+import com.markopavlenko.usermanagement.util.Messages;
 
 import com.mockobjects.dynamic.Mock;
 import junit.extensions.jfcunit.JFCTestCase;
@@ -147,6 +147,7 @@ public class MainFrameTest extends JFCTestCase {
         table = (JTable) find(JTable.class,USER_TABLE_COMPONENT_NAME);
         assertEquals(NUMBER_OF_ROWS_ADD_TEST,table.getRowCount());
     }
+    
     public void testCancelAddUser() {
 
         User user = new User(FIRST_NAME,LAST_NAME,DATE_OF_BIRTH);
