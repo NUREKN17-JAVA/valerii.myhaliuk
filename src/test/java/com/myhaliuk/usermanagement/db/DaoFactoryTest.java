@@ -1,8 +1,8 @@
-package com.markopavlenko.usermanagement.db;
+package com.myhaliuk.usermanagement.db;
 
 import junit.framework.TestCase;
-import com.markopavlenko.usermanagement.db.DaoFactory;
-import com.markopavlenko.usermanagement.db.UserDao;
+import com.myhaliuk.usermanagement.db.DaoFactory;
+import com.myhaliuk.usermanagement.db.UserDao;
 
 public class DaoFactoryTest extends TestCase {
 
