@@ -1,11 +1,11 @@
-package com.myhaliuk.usermanagement.db;
+package com.markopavlenko.usermanagement.db;
 
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.myhaliuk.usermanagement.User;
+import com.markopavlenko.usermanagement.User;
 
 public class MockUserDao implements UserDao {
 	private long id = 0;

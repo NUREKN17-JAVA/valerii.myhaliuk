@@ -1,5 +1,9 @@
 package com.myhaliuk.usermanagement.gui;
 
+import com.myhaliuk.usermanagement.User;
+import com.myhaliuk.usermanagement.db.DatabaseException;
+import com.myhaliuk.usermanagement.util.Messages;
+
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -11,32 +15,18 @@ import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
 
-import com.myhaliuk.usermanagement.User;
-import com.myhaliuk.usermanagement.db.DatabaseException;
-import com.myhaliuk.usermanagement.util.Messages;
+
 
 public class BrowsePanel extends JPanel implements ActionListener {
 
-
-    /**
-	 * 
-	 */
 	private static final long serialVersionUID = 5955495123527812587L;
-
 	private MainFrame parent;
-
     private JPanel buttonPanel;
-
     private JButton addButton;
-
     private JButton detailsButton;
-
     private JButton deleteButton;
-
     private JButton editButton;
-
     private JScrollPane tablePanel;
-
     private JTable userTable;
 
     public BrowsePanel(MainFrame frame) {

@@ -1,4 +1,4 @@
-package com.myhaliuk.usermanagement;
+package com.markopavlenko.usermanagement;
 
 import java.io.Serializable;
 import java.util.Calendar;
