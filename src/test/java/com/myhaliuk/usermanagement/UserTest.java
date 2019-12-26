@@ -1,4 +1,4 @@
-package com.myhaliuk.usermanagement;
+package com.markopavlenko.usermanagement;
 
 import junit.framework.TestCase;
 import java.util.Calendar;

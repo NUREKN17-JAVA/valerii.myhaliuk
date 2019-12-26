@@ -1,4 +1,4 @@
-package com.myhaliuk.usermanagement.db;
+package com.markopavlenko.usermanagement.db;
 
 
 import com.mockobjects.dynamic.Mock;

@@ -1,7 +1,5 @@
 package com.myhaliuk.usermanagement.db;
 
-import java.util.Collection;
-
 import com.myhaliuk.usermanagement.User;
 
 import java.util.Collection;
@@ -21,6 +19,4 @@ public interface UserDao {
     void setConnectionFactory(ConnectionFactory connectionFactory);
 
     Collection<User> find(String firstName, String lastName) throws DatabaseException;
-
-	User find(long id) throws DatabaseException;
 }
